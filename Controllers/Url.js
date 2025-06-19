@@ -24,7 +24,7 @@ const shortUrl = async (req, res) => {
   }else{
     res.json({msg:"invalid short"})
   }
-   res.json({originalUrl})
+ 
 }
 
 module.exports = { getOriginalUrl,shortUrl };
